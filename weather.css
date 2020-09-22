@@ -1,0 +1,64 @@
+body {
+    background-image: linear-gradient(lightblue, rgb(91, 91, 245));
+}
+.main-container {
+    text-align: center;
+}
+.mainText {
+    font-size: xxx-large;
+    font-weight: 600;
+    font-family: sans-serif;
+    padding: 2rem;
+    color: black;
+    margin: 0px;
+}
+.inputBox {
+    width: 25%;
+    height: 7%;
+    border: 1px solid rgb(224, 215, 224);
+    border-radius: 5px;
+    font-size: large;
+    font-weight: 500;
+    /* background: black; */
+    /* color: white; */
+}
+.btnClass {
+    margin: 1rem;
+    background: white;
+    border: 1px solid black;
+    width: 8%;
+    height: 6%;
+    font-size: 1rem;
+    font-family: system-ui;
+    font-weight: 600;
+}
+.errorMsg {
+    color: black;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: large;
+}
+.card {
+    box-shadow: 3px 3px lightpurple;
+    transition: 0.3s;
+    width: 20%;
+    height: 50%;
+    border-radius: 5px;
+    background: white;
+    color: black;
+    margin: auto;
+}
+.cityText{
+    margin: 0px;
+    padding: 20px 10px 20px 30px;
+    color: grey;
+    font-size: xx-large;
+}
+.cityTemp{
+    color: black;
+    font-size: xxx-large;
+    /* text-align: center; */
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 20px 10px 20px 30px;
+}

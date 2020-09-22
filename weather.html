@@ -1,0 +1,24 @@
+<head>
+    <link rel="stylesheet" href="weather.css" />
+</head>
+
+<body>
+    <div class="main-container">
+        <p class="mainText">Find the weather for</p>
+        <input type="text" class="inputBox" placeholder="Enter the city" id="city">
+        <br />
+        <button class="btnClass" onClick="findWeather()">SUBMIT</button>
+    </div>
+
+    <div class="errorMsg" style="visibility: hidden;" id="errorMsg">
+        Please enter a valid city
+    </div>
+
+    <div class="card" style="visibility: hidden;" id="weatherCard">
+        <p class="cityText" id="cityText"></p>
+        <div class="cityTemp" id="cityTemp"></div>
+        <div class="cityText" id="cityWeather"></div>
+    </div>
+    
+    <script src="weather.js"></script>
+</body>
